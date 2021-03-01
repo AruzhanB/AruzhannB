@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: #ABCDEF;
+    font: italic 1rem 'trebuchet MS',Arial, Helvetica;
+  }
+  
+  .m-heading {
+    font: italic 1rem 'trebuchet MS',Arial, Helvetica;
+  }
+  
+  .navigation-link {
+    border: 2px solid transparent;
+  }
+  
+  .navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #ABCDEF;
+    transition: 0.5s ease;
+  }
+  
+  .main-container {
+    height: 50vh;
+  }
+  
+  .main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main_row h1 {
+    font-size: 5rem;
+  }
+  
+  .main_row img {
+    width: auto;
+    height: 100vh;
+  }
+  
+  .card {
+    border-bottom: 8px solid #ABCDEF;
+  }
+  
+  #contact {
+    background: #ABCDEF;
+  }
+  
+  .media_link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #ABCDEF;
+    border-radius: 0.5rem;
+  }
